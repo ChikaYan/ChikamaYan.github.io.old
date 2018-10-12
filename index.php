@@ -24,20 +24,20 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Walter's Personal Website</a>
+            <a class="navbar-brand" href="index.php">Walter's Personal Website</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavBar">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="#">Page 1</a></li>
-                <li><a href="#">Page 2</a></li>
-                <li><a href="#">Page 3</a></li>
+                <li class="active"><a href="index.php">Home</a></li>
+                <li><a href="#">Posts</a></li>
+                <li><a href="#">About</a></li>
+                <!--<li><a href="#">Page 3</a></li>-->
             </ul>
-            <ul class="nav navbar-nav navbar-center">
-                <li><a href="#">center 1</a></li>
-                <li><a href="#">center 2</a></li>
-                <li><a href="#">center 3</a></li>
-            </ul>
+            <!--<ul class="nav navbar-nav navbar-center">-->
+                <!--<li><a href="#">center 1</a></li>-->
+                <!--<li><a href="#">center 2</a></li>-->
+                <!--<li><a href="#">center 3</a></li>-->
+            <!--</ul>-->
         </div>
     </div>
 </nav>
@@ -49,9 +49,8 @@
             <div class="row">
                 <div class="text-center">
                     <!--mx-auto only for div with fixed width-->
-                    <h1>Walter's Website</h1>
                     <p>Hi there! Welcome to my website, here I sometimes post my works and projects,<br> talk about
-                        myself,as well as try out all the cool techniques I learnt from other websites</p>
+                        myself,as well as try out all the cool techniques I learnt from other websites.</p>
                 </div>
             </div>
         </div>
@@ -64,6 +63,10 @@
         <code> this is a code </code>
     </div>
 </main>
+
+<footer>
+    <p>Walter Wu &copy; <?php echo date('Y'); ?></p>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
