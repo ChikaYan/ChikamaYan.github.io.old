@@ -1,0 +1,27 @@
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.vertical-center {
+    min-height: 100%;
+    /*min-height: 100vh;*/
+
+    display: flex;
+    align-items: center;
+}
+
+/*http://codewithawa.com/posts/how-to-create-a-blog-in-php-and-mysql-database*/
+.page-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: #73707D;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto 0;
+    padding: 20px 0;
+}

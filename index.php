@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1">
     <meta name="description" content="Walter's Personal Website">
@@ -10,7 +9,9 @@
 
     <title>Walter's Webpage</title>
 
-    <link rel="stylesheet" href="css/personal-web.css" type="text/css">
+    <!--Google Fonts?-->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Sofia' >
+    <link rel="stylesheet" href="static/css/personal-web.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
@@ -34,9 +35,9 @@
                 <!--<li><a href="#">Page 3</a></li>-->
             </ul>
             <!--<ul class="nav navbar-nav navbar-center">-->
-                <!--<li><a href="#">center 1</a></li>-->
-                <!--<li><a href="#">center 2</a></li>-->
-                <!--<li><a href="#">center 3</a></li>-->
+            <!--<li><a href="#">center 1</a></li>-->
+            <!--<li><a href="#">center 2</a></li>-->
+            <!--<li><a href="#">center 3</a></li>-->
             <!--</ul>-->
         </div>
     </div>
@@ -64,8 +65,8 @@
     </div>
 </main>
 
-<footer>
-    <p>Walter Wu &copy; <?php echo date('Y'); ?></p>
+<footer class="page-footer">
+        <p class="">Walter Wu &copy; <?php echo date('Y'); ?></p>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
