@@ -15,7 +15,7 @@
     <title>Walter's Webpage</title>
 
     <!--Google Fonts?-->
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Sofia'>
-    <link rel="stylesheet" type="text/css" href=<?php echo INCLUDES_PATH . '/personal-web.css' ?> >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="<?php echo WEB_CSS . '/personal-web.css' ?>" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
