@@ -34,10 +34,7 @@
 </header>
 
 <main>
-    <div class="container">
-        <h1>This is a test</h1>
-        <code> this is a code </code>
-    </div>
+
 </main>
 
 <footer class="page-footer">
