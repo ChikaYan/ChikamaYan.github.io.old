@@ -43,9 +43,7 @@ p {
     bottom: 0;
     left: 0;
     color: white;
-    background-color: #73707D;
-    text-align: center;
-    width: 80%;
-    margin: 20px auto 0;
-    padding: 20px 0;
+    background-color: #73707d;
+    margin: 1em 0;
+    padding: 1em 0;
 }

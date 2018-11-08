@@ -1,11 +1,4 @@
-<!--
-/**
- * Created by IntelliJ IDEA.
- * User: ChikamaYan
- * Date: 10/17/2018
- * Time: 8:22 AM
- */
--->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1">
